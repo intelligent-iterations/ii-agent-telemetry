@@ -1,0 +1,6 @@
+{
+  "bind": "127.0.0.1",
+  "retentionDays": 30,
+  "rawLogEnabled": false,
+  "rubrics": ["tool_use_quality", "plan_adherence", "error_recovery"]
+}

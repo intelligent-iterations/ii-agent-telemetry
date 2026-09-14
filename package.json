@@ -1,0 +1,41 @@
+{
+  "name": "ii-agent-evaluations",
+  "version": "0.1.0",
+  "description": "Local OpenTelemetry and hook ingestion for agent self-evaluation",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "bin": {
+    "evals": "dist/src/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/cli.ts server",
+    "check": "tsc --noEmit",
+    "test": "node --max-old-space-size=4096 scripts/run-node-tests.mjs test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^24.6.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "keywords": [
+    "agents",
+    "opentelemetry",
+    "claude-code",
+    "codex",
+    "telemetry",
+    "evaluation"
+  ],
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intelligent-iterations/ii-agent-telemetry.git"
+  },
+  "bugs": {
+    "url": "https://github.com/intelligent-iterations/ii-agent-telemetry/issues"
+  },
+  "homepage": "https://github.com/intelligent-iterations/ii-agent-telemetry#readme"
+}

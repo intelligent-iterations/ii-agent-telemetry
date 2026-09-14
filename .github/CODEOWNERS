@@ -1,0 +1,18 @@
+* @luciana-lara @admincoderii
+
+/.github/CODEOWNERS @luciana-lara @admincoderii
+/.github/ @luciana-lara @admincoderii
+/src/ @luciana-lara @admincoderii
+/test/ @luciana-lara @admincoderii
+/skills/ @luciana-lara @admincoderii
+/prompts/ @luciana-lara @admincoderii
+/docs/ @luciana-lara @admincoderii
+/packages/ @luciana-lara @admincoderii
+/CLAUDE.md @luciana-lara @admincoderii
+/AGENTS.md @luciana-lara @admincoderii
+/.claude/ @luciana-lara @admincoderii
+/.codex/ @luciana-lara @admincoderii
+/LICENSE @luciana-lara @admincoderii
+/SECURITY.md @luciana-lara @admincoderii
+/package.json @luciana-lara @admincoderii
+/package-lock.json @luciana-lara @admincoderii

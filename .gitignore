@@ -1,0 +1,17 @@
+node_modules
+dist
+.env
+.env.*
+!.env.example
+data
+logs
+test-results
+*.db
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+secrets/
+*.key
+*.pem
+CLAUDE.local.md
+AGENTS.local.md
